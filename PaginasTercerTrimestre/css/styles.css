@@ -1,0 +1,81 @@
+@font-face {
+    font-family: mifuente;
+    src: url(/fuentes/slackey.woff2);
+}
+body {
+    background-color: #5d59a5;
+}
+hr {
+    background-color: #5d59a5;
+    border: 0px;
+    width: 830px;
+    height: 3px;
+}
+#paginatotal {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #a4c5e9;
+    padding-bottom: 20px;
+}
+#header {
+    text-align: center;
+}
+#header h1 {
+    font-family: mifuente;
+    text-align: center;
+    color: #5d59a5;
+    text-shadow: 5px -5px 5px white;
+    margin: 10px;
+    line-height: 1.5em;
+}
+#retrato {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#retrato img {
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+#frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#frases .frasenaranja p {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: #f28226;
+    padding: 10px;
+    border: 3px dashed white;
+    margin: 20px 150px 0px 50px;
+}
+#frases .frasenaranja p::first-letter {
+    color: black;
+}
+#frases .fraseverde p {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    background-image: url(../img/verde.png);
+    text-align: center;
+    margin: 20px 110px 0px 80px;
+}
+#frases .frasemarron p {
+    font-weight: 600;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #b45421;
+    color: white;
+    margin: 20px 70px 10px 100px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
