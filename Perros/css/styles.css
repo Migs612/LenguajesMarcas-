@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "SigmarOne";
+    src: url("../fuentes/sigmar_one.woff");
+}
+
+body {
+    padding: 0 50px;
+    background-color: #e9f2fb;
+    text-align: justify;
+    width: 45%;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+#titulo h1 {
+    margin: 0;
+    font-family: "SigmarOne";
+    font-size: 3rem;
+    text-align: center;
+}
+
+#nombreperro {
+    margin: 0;
+    color: #7a99b8;
+    font-family: "SigmarOne";
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-shadow: 3px 3px black;
+}
+
+img {
+    border: #7a99b8 5px solid;
+    padding: 5px;
+}
+
+#perro1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#perro1 img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#perro2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#perro2 > div {
+    margin-right: 20px;
+}
+
+#perro2 img {
+    margin-left: auto;
+}
+
+#perro3 {
+    display: flex;
+    flex-direction: row;
+}
+
+#perro3 img {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#conmargen {
+    margin: 0px 40px 0px 0px;
+  }
+
+hr {
+    clear: both;
+    width: 66%;
+    height: 10px;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 40px auto;
+    background-color: #7a99b8;
+  }
+
+  strong {
+    color: red;
+    background-color: white;
+  }
+
+  b {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  #años {
+    color: blue;
+    background-color: #e9f2fb;
+  }
+
+  

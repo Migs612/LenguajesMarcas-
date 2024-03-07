@@ -1,0 +1,43 @@
+.centrado {
+    padding: 40px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cyan;
+}
+
+#izquierda {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#A {
+    align-self: flex-start;
+}
+
+#C {
+    align-self: center;
+}
+
+#D {
+    align-self: flex-end;
+}
+
+#derecha {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#B {
+    align-self: flex-start;
+}
+
+#E {
+    align-self: flex-end;
+}
