@@ -1,0 +1,53 @@
+body {
+    background-color: #4b80b1;
+}
+
+#fondoazul {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1150px;
+    height: 100%;
+    padding: 30px;
+    background-color: #00ffff;
+    border-radius: 25px;
+    border: 14px inset white;
+}
+
+.tablas {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.cuadradoizq,
+.cuadradoder {
+    display: table-cell;
+    border: white 8px outset;
+    padding: 40px;
+}
+
+.cuadradoder pre,
+.cuadradoizq table {
+    margin: 0px auto;
+    font-size: 1.2rem;
+}
+
+.cuadradoizq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+}
+
+.cuadradoder {
+    width: 45%;
+}
+
+caption {
+    background-color: yellow;
+    border: 4px ridge green;
+    text-transform: uppercase;
+}
